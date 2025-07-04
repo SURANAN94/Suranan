@@ -37,8 +37,8 @@ def read_excel(uploaded_file: "st.uploaded_file") -> pd.DataFrame:
 # โซนอัปโหลดไฟล์
 # ---------------------------------------------------------
 
-f1_file = st.file_uploader("📤 อัปโหลด F1 (ข้อมูลหลัก)", type=["xlsx", "xls"], key="f1")
-f2_file = st.file_uploader("📤 อัปโหลด F2 (ไฟล์อ้างอิง)", type=["xlsx", "xls"], key="f2")
+f1_file = st.file_uploader("📤 อัปโหลด F1 (ข้อมูลจาก HDC)", type=["xlsx", "xls"], key="f1")
+f2_file = st.file_uploader("📤 อัปโหลด F2 (ไฟล์อ้างอิงจาก HOSXP)", type=["xlsx", "xls"], key="f2")
 
 if f1_file and f2_file:
     df1 = read_excel(f1_file)
@@ -128,6 +128,6 @@ st.sidebar.markdown(
 3. กด **ดึงข้อมูลและดาวน์โหลด**  
 4. รับไฟล์ผลลัพธ์ `.xlsx` ในทันที  
 
-> ⚠️ ถ้ายังไม่เห็นข้อมูล ให้ลองรีเฟรชหน้าเว็บหรืออัปโหลดไฟล์ใหม่
+© Suranan Yamdi 
 """
 )
