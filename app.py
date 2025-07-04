@@ -132,6 +132,6 @@ st.sidebar.markdown(
 
 **© Suranan Yamdi** 
 
-              ติดต่อสอบถาม elricscythe@gmail.com
+ติดต่อสอบถาม elricscythe@gmail.com
 """
 )
