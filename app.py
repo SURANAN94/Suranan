@@ -131,6 +131,7 @@ st.sidebar.markdown(
 4. รับไฟล์ผลลัพธ์ `.xlsx` ในทันที  
 
 **© Suranan Yamdi** 
-ติดต่อสอบถาม elricscythe@gmail.com
+
+              ติดต่อสอบถาม elricscythe@gmail.com
 """
 )
